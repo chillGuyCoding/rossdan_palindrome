@@ -8,13 +8,13 @@ Gem::Specification.new do |spec|
   spec.authors = ["Chill Guy"]
   spec.email = ["chill.guy.coding@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.summary = %(Detects palindromes and follows the Ruby tutorial)
+  spec.description = %(Longer description blah blah blah)
+  spec.homepage = "https://github.com/mhartl/mhartl_palindrome"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.1.0"
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
