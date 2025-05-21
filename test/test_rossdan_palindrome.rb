@@ -12,7 +12,7 @@ class TestRossdanPalindrome < Minitest::Test
   end
 
   def test_mixed_case_palindrome
-    skip
+    assert "RaCeCar".palindrome?
   end
 
   def test_palindrome_with_punctuation
