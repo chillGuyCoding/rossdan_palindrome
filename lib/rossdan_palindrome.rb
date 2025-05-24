@@ -10,17 +10,21 @@ module RossdanPalindrome
     processed_content == processed_content.reverse
   end
 
-  def letters
-    scan(/[a-z]/i).join
+  def alpha_numeric
+    to_s.scan(/[a-z]*\d*/i).join
   end
 
   private
 
   def processed_content
-    letters.downcase
+    alpha_numeric.downcase
   end
 end
 
 class String
+  include RossdanPalindrome
+end
+
+class Integer
   include RossdanPalindrome
 end

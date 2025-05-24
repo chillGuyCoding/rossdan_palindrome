@@ -19,7 +19,7 @@ class TestRossdanPalindrome < Minitest::Test
     assert "Madam, I'm Adam.".palindrome?
   end
 
-  def test_letters
-    assert_equal "MadamImAdam", "Madam, I'm Adam.".letters
+  def test_alpha_numeric
+    assert_equal "MadamImAdam", "Madam, I'm Adam.".alpha_numeric
   end
 end
