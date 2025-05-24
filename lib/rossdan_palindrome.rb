@@ -21,7 +21,7 @@ module RossdanPalindrome
   private
 
   def processed_content
-    downcase
+    letters.downcase
   end
 end
 
