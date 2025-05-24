@@ -2,19 +2,27 @@
 
 require_relative "rossdan_palindrome/version"
 
+# Simple module for practicing TDD Ruby tutorials
 module RossdanPalindrome
   class Error < StandardError; end
-  # Your code goes here...
-  
+
   def palindrome?
     processed_content == processed_content.reverse
   end
 
-  private
-    
-    def processed_content
-      self.downcase
+  def letters
+    temp = []
+    chars.each do |char|
+      temp << char if char.match?(/[a-zA-Z]/)
     end
+    temp.join
+  end
+
+  private
+
+  def processed_content
+    downcase
+  end
 end
 
 class String
