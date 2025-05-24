@@ -5,7 +5,7 @@ require_relative "lib/rossdan_palindrome/version"
 Gem::Specification.new do |spec|
   spec.name = "rossdan_palindrome"
   spec.version = RossdanPalindrome::VERSION
-  spec.authors = ["Chill Guy"]
+  spec.authors = ["ChillGuy"]
   spec.email = ["chill.guy.coding@gmail.com"]
 
   spec.summary = %(Detects palindromes and follows the Ruby tutorial)
